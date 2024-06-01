@@ -29,13 +29,13 @@ export class Gedit extends Component {
 
         if (name.length === 0) {
             $("#sender-name").val('');
-            $("#sender-name").attr("placeholder", "Name must not be Empty!");
+            $("#sender-name").attr("placeholder", "Nombre no puede estar Vacío!");
             error = true;
         }
 
         if (message.length === 0) {
             $("#sender-message").val('');
-            $("#sender-message").attr("placeholder", "Message must not be Empty!");
+            $("#sender-message").attr("placeholder", "Nombre no puede estar Vacío!");
             error = true;
         }
         if (error) return;

@@ -3,8 +3,8 @@ import { Component } from 'react'
 export default class Clock extends Component {
     constructor() {
         super();
-        this.month_list = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-        this.day_list = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        this.month_list = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"];
+        this.day_list = ["dom", "lun", "Mar", "mie", "jue", "vie", "sab",];
         this.state = {
             hour_12: true,
             current_time: new Date()

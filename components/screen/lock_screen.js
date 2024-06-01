@@ -30,7 +30,7 @@ export default function LockScreen(props) {
                     <Clock onlyDay={true} />
                 </div>
                 <div className=" mt-16 text-base">
-                    Click or Press a key to unlock
+                    Click o Presione una tecla para desbloquear
                 </div>
             </div>
         </div>

@@ -95,7 +95,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/network-wireless-signal-good-symbolic.svg" alt="ubuntu wifi" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
-						<span>OnePlus 8 Pro</span>
+						<span>Hogar</span>
 						<SmallArrow angle="right" />
 					</div>
 				</div>
@@ -104,7 +104,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/bluetooth-symbolic.svg" alt="ubuntu bluetooth" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
-						<span>Off</span>
+						<span>Apagar</span>
 						<SmallArrow angle="right" />
 					</div>
 				</div>
@@ -113,7 +113,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/battery-good-symbolic.svg" alt="ubuntu battery" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
-						<span>2:40 Remaining (75%)</span>
+						<span>2:40 Restante (80%)</span>
 						<SmallArrow angle="right" />
 					</div>
 				</div>
@@ -128,7 +128,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/emblem-system-symbolic.svg" alt="ubuntu settings" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between">
-						<span>Settings</span>
+						<span>Configuracion</span>
 					</div>
 				</div>
 				<div
@@ -139,7 +139,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/changes-prevent-symbolic.svg" alt="ubuntu lock" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between">
-						<span>Lock</span>
+						<span>Bloquear Pantalla</span>
 					</div>
 				</div>
 				<div
@@ -150,7 +150,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/system-shutdown-symbolic.svg" alt="ubuntu power" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between">
-						<span>Power Off / Log Out</span>
+						<span>Apagar / Bloquear</span>
 						<SmallArrow angle="right" />
 					</div>
 				</div>
